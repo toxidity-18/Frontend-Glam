@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 
 const FetchContext = createContext();
-export  const baseURL = 'https://glam-backend-wsat.onrender.com/';  
+export  const baseURL = 'https://bsbackend.onrender.com/';  
 // export const baseURL = 'http://127.0.0.1:5000/';  
 
 export function FetchProvider({ children }) {
