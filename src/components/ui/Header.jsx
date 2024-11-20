@@ -138,7 +138,7 @@ let logout = () => {
           </nav>
         </div>
       </div>
-      <Card className="p-4 w-1/4 bg-pink mx-auto ">
+      <Card className="p-4 w-full bg-green-800 ">
         <CardTitle className="text-white font-extrabold text-center ">
         {userData ? (
         <>Welcome back, {userData.name || "User"}!</>

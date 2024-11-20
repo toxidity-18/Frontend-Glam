@@ -9,8 +9,8 @@ export default function Background() {
           >
               <defs>
                   <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style={{ stopColor: '#1E3A8A', stopOpacity: 1 }} />  {/* Dark Blue */}
-                  <stop offset="100%" style={{ stopColor: '#4B5563', stopOpacity: 1 }} /> {/* Grey */}
+                      <stop offset="0%" style={{ stopColor: '#FFF8E7', stopOpacity: 1 }} /> {/* Creamish white */}
+                      <stop offset="100%" style={{ stopColor: '#F5EAD8', stopOpacity: 1 }} /> {/* Softer cream */}
                   </linearGradient>
                   <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
                       <stop offset="0%" style={{ stopColor: '#FFF8E7', stopOpacity: 0.8 }} /> {/* Creamish white */}
